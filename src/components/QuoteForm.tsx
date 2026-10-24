@@ -155,7 +155,7 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({
   };
 
   const downloadProjectBrief = () => {
-    const content = `EVERGREEN OUTDOOR LIVING - COMPLIMENTARY QUOTE SPECIFICATION
+    const content = `PORTFOLIO DEMO — SAMPLE PROJECT BRIEF (NOT SENT TO ANY BUSINESS)
 Reference Number: ${submissionReference}
 Generated: ${new Date().toLocaleDateString('en-US', { dateStyle: 'full' })}
 
@@ -172,7 +172,7 @@ ${formData.selectedServices.map((s) => `• ${serviceOptions.find((o) => o.id ==
 
 Timeline Preference: ${formData.projectTimeline}
 Budget Bracket: ${formData.budgetRange}
-Attached Documents: ${uploadedFiles.length > 0 ? uploadedFiles.map((f) => f.name).join(', ') : 'None attached'}
+Selected filenames (not uploaded): ${uploadedFiles.length > 0 ? uploadedFiles.map((f) => f.name).join(', ') : 'None selected'}
 
 PROJECT DESCRIPTION & SITE VISION:
 ${formData.projectDetails}
@@ -181,7 +181,7 @@ ${formData.projectDetails}
 Evergreen Outdoor Living
 4200 Meadowbrook Way, Suite 100
 Direct: (800) 582-9418 | inquiries@evergreenliving.com
-Registered Landscape Architecture & Construction Lic #748921-A
+Portfolio demo only — no real business or licence is represented.
 `;
 
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
@@ -223,10 +223,10 @@ Registered Landscape Architecture & Construction Lic #748921-A
             <span>No Obligation</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-stone-900 tracking-tight mb-4">
-            Request a Complimentary Estate Consultation
+            Create a Sample Project Brief
           </h2>
           <p className="text-base text-stone-600 leading-relaxed">
-            Tell us about your property and goals. A senior landscape architect will review your topography, discuss material palettes, and prepare a tailored design proposal.
+            This interactive form demonstrates validation and project-brief generation. It does not send or store submissions, contact a business, or upload files to a server.
           </p>
         </div>
 
@@ -238,7 +238,7 @@ Registered Landscape Architecture & Construction Lic #748921-A
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 mb-2">
-              Quote Request Generated
+              Demo Project Brief Created
             </h3>
 
             <div className="inline-block bg-stone-100 px-3.5 py-1.5 rounded-full text-xs font-mono font-semibold text-stone-800 mb-6">
@@ -246,7 +246,7 @@ Registered Landscape Architecture & Construction Lic #748921-A
             </div>
 
             <p className="text-stone-600 text-sm sm:text-base max-w-xl mx-auto leading-relaxed mb-8">
-              Thank you, <strong>{formData.fullName}</strong>. Your project brief has been formatted. Our design studio will follow up at <strong>{formData.email}</strong> within 1 business day to coordinate your complimentary on-site topography walkthrough.
+              Thanks, <strong>{formData.fullName}</strong>. Your sample brief has been generated in this browser only. Nothing has been sent, and no business will follow up. Use the download button to save your sample brief.
             </p>
 
             {/* Itemized Snapshot */}
@@ -286,7 +286,7 @@ Registered Landscape Architecture & Construction Lic #748921-A
                 className="w-full sm:w-auto px-6 py-3 bg-emerald-900 hover:bg-emerald-800 text-white font-semibold text-sm rounded-lg transition-colors flex items-center justify-center gap-2"
               >
                 <Download className="w-4 h-4" />
-                <span>Download Printable Project Brief</span>
+                <span>Download Sample Project Brief</span>
               </button>
 
               <button
@@ -295,7 +295,7 @@ Registered Landscape Architecture & Construction Lic #748921-A
                 className="w-full sm:w-auto px-6 py-3 bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-sm rounded-lg transition-colors flex items-center justify-center gap-2 border border-stone-300"
               >
                 <RefreshCw className="w-4 h-4" />
-                <span>Submit Another Inquiry</span>
+                <span>Reset Demo Form</span>
               </button>
             </div>
           </div>
