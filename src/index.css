@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-evergreen-950: #091710;
+  --color-evergreen-900: #12281d;
+  --color-evergreen-800: #1a3829;
+  --color-evergreen-700: #244b38;
+  --color-evergreen-600: #32644c;
+  --color-evergreen-500: #448063;
+  --color-stone-850: #221f1d;
+  --color-stone-925: #151311;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #fbfaf8;
+    color: #1c1917;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+  }
+}
