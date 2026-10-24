@@ -603,7 +603,7 @@ Portfolio demo only — fictional business details. No real address, contact det
 
             {/* Explicit Notice regarding simulated local processing */}
             <div className="p-3.5 bg-stone-50 border border-stone-200 rounded-lg text-xs text-stone-500 leading-relaxed">
-              <strong>Transparent Notice:</strong> This preview interface validates and stores your project specification locally in your browser session. Upon submission, an instant downloadable and printable brief is created with your reference code. In live production, requests are dispatched directly to our registered landscape architect team.
+              <strong>Transparent Notice:</strong> This portfolio demo validates the form in your browser and generates a downloadable sample brief. Nothing is sent to a server or business, and no real company or licensed professional is represented.
             </div>
 
             {/* Submit Button */}
