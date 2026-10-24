@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
           
           {/* Subtle editorial kicker (Clean text, no pill box or status dot) */}
           <div className="flex items-center gap-2 text-xs sm:text-sm font-medium tracking-wider uppercase text-emerald-400 mb-4">
-            <span>Licensed Landscape Architecture & Construction</span>
+            <span>Fictional Landscaping Website Concept</span>
             <span aria-hidden="true">·</span>
             <span>Est. 2008</span>
           </div>
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
                 5-Year
               </div>
               <div className="text-xs sm:text-sm text-stone-400 mt-0.5">
-                Structural stone warranty
+                Sample structural warranty
               </div>
             </div>
           </div>
