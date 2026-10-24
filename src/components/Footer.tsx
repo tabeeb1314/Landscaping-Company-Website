@@ -23,13 +23,11 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
               Evergreen Outdoor Living
             </span>
             <p className="text-xs sm:text-sm text-stone-400 leading-relaxed max-w-sm">
-              Architectural landscape architecture, bespoke stone masonry terraces, and sustainable estate botanical gardens for American homeowners.
+              A fictional landscaping business concept built as a web-development portfolio project. All business details and claims shown here are illustrative.
             </p>
 
             <div className="pt-2 text-xs text-stone-400 space-y-1">
-              <div>Licensed Landscape Contractor: Lic #748921-A</div>
-              <div>Registered Landscape Architect: Lic #LA-4192</div>
-              <div>$2,000,000 Comprehensive Commercial General Liability</div>
+              <div>Portfolio demo — no real licences, registrations, or insurance claims.</div>
             </div>
           </div>
 
@@ -57,7 +55,7 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
               <li><a href="#portfolio" className="hover:text-emerald-400 transition-colors">Before & After Studies</a></li>
               <li><a href="#estimator" className="hover:text-emerald-400 transition-colors">Cost Estimator Guide</a></li>
               <li><a href="#about" className="hover:text-emerald-400 transition-colors">Our Design Philosophy</a></li>
-              <li><a href="#testimonials" className="hover:text-emerald-400 transition-colors">Client Reviews</a></li>
+              <li><a href="#testimonials" className="hover:text-emerald-400 transition-colors">Sample Client Stories</a></li>
               <li><a href="#faq" className="hover:text-emerald-400 transition-colors">Frequently Asked Questions</a></li>
             </ul>
           </div>
@@ -70,25 +68,25 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
             <div className="space-y-2.5 text-xs text-stone-400">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>4200 Meadowbrook Way, Suite 100, Westlake Design District</span>
+                <span>Sample address for portfolio demonstration only</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a href="tel:8005829418" className="hover:text-white transition-colors">
-                  (800) 582-9418 (Direct Design Line)
+                  Sample phone number (not a real contact)
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="mailto:inquiries@evergreenliving.com" className="hover:text-white transition-colors">
+                <a href="mailto:demo@example.com" className="hover:text-white transition-colors">
                   inquiries@evergreenliving.com
                 </a>
               </div>
               <div className="flex items-start gap-2.5 pt-1">
                 <Clock className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <div>Monday – Friday: 7:30 AM – 5:30 PM</div>
-                  <div>Saturday: 8:00 AM – 2:00 PM (By Appointment)</div>
+                  <div>Business hours: illustrative sample only</div>
+                  <div>No real business operations are represented</div>
                 </div>
               </div>
             </div>
@@ -99,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
                 onClick={onQuoteClick}
                 className="px-4 py-2 text-xs font-semibold text-stone-950 bg-emerald-400 hover:bg-emerald-300 rounded transition-colors"
               >
-                Book On-Site Consultation
+                Explore Demo Form
               </button>
             </div>
           </div>
