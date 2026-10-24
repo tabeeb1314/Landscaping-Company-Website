@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
           {/* Studio Contact & Hours */}
           <div className="lg:col-span-4 space-y-3">
             <div className="text-xs font-semibold uppercase tracking-wider text-white">
-              Design Studio & Office
+              Sample Contact Details
             </div>
             <div className="space-y-2.5 text-xs text-stone-400">
               <div className="flex items-start gap-2.5">
