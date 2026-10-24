@@ -78,9 +78,7 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="mailto:demo@example.com" className="hover:text-white transition-colors">
-                  inquiries@evergreenliving.com
-                </a>
+                <span>demo@example.com (illustrative only)</span>
               </div>
               <div className="flex items-start gap-2.5 pt-1">
                 <Clock className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
