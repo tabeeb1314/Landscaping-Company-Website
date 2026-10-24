@@ -60,7 +60,7 @@ export const AboutSection: React.FC = () => {
                 Design-Build Excellence
               </div>
               <p className="text-xs text-stone-300 leading-relaxed">
-                Registered Landscape Architects (RLA) and ICPI Certified Advanced Stone Craftsmen since 2008.
+                Illustrative credentials line — fictional portfolio content, not a real membership or certification claim.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="space-y-4 text-base text-stone-600 leading-relaxed">
               <p>
-                Founded in 2008 by licensed landscape architects and generational stone masons, Evergreen Outdoor Living was built on a simple conviction: outdoor spaces should be as refined, enduring, and comfortable as the finest interiors.
+                Evergreen Outdoor Living is a fictional landscaping brand created for this portfolio demonstration. The concept is built around a simple design idea: outdoor spaces can be as refined, enduring, and comfortable as the finest interiors.
               </p>
               <p>
                 We do not pass your vision to disconnected third-party sub-crews. From initial 3D topographic modeling through laser-graded stone placement and crane-set mature trees, our dedicated in-house craftsmen shepherd your grounds with pride of ownership.
@@ -91,7 +91,7 @@ export const AboutSection: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2 font-serif font-bold text-stone-900 mb-1">
                   <Shield className="w-4 h-4 text-emerald-800" />
-                  <span>5-Year Warranty</span>
+                  <span>Sample Warranty</span>
                 </div>
                 <p className="text-xs text-stone-600">
                   Engineered crushed aggregate bases prevent stone shifting, settling, or pooling.
