@@ -120,7 +120,7 @@ export const EstimatorSection: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
             Interactive Project Cost Estimator
           </h2>
           <p className="text-base text-stone-600">
-            Every estate is unique, but transparent planning starts with honest benchmarks. Select your desired scope and property profile below to generate an instant baseline estimate.
+            This interactive estimator uses illustrative sample prices for demonstration only. It is not a quote, market survey, or guarantee of actual project costs.
           </p>
         </div>
 
@@ -237,7 +237,7 @@ export const EstimatorSection: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
                 ${lowEstimate.toLocaleString()} – ${highEstimate.toLocaleString()}
               </div>
               <div className="text-xs text-stone-400 mt-1">
-                Includes design, grading, permitting, materials & in-house construction
+                Illustrative demo range only — not a real quote
               </div>
             </div>
 
@@ -247,11 +247,11 @@ export const EstimatorSection: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
                 <span className="font-semibold text-white">{selectedElements.length} elements</span>
               </div>
               <div className="flex justify-between py-1 border-b border-stone-800/60">
-                <span className="text-stone-400">Typical Build Duration</span>
+                <span className="text-stone-400">Example Build Duration</span>
                 <span className="font-semibold text-white">4 to 8 weeks</span>
               </div>
               <div className="flex justify-between py-1 border-b border-stone-800/60">
-                <span className="text-stone-400">Structural Warranty</span>
+                <span className="text-stone-400">Example Warranty</span>
                 <span className="font-semibold text-white">5 Years Comprehensive</span>
               </div>
             </div>
@@ -259,7 +259,7 @@ export const EstimatorSection: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
             <div className="mt-6 p-3.5 bg-stone-800/70 rounded-lg text-xs text-stone-400 flex items-start gap-2.5">
               <Info className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
               <span>
-                Final pricing is established during our complimentary on-site topographical consultation and fixed in writing before groundbreaking.
+                A real business would calculate pricing based on its location, scope, materials, and site conditions.
               </span>
             </div>
 
