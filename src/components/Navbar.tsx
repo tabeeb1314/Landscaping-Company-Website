@@ -92,14 +92,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onQuoteClick }) => {
 
         {/* Zone 3: 1 Primary Action CTA + Mobile Toggle */}
         <div className="flex items-center gap-4 shrink-0">
-          <a
-            href="tel:8005829418"
-            className="hidden xl:flex items-center gap-1.5 text-xs text-stone-300 hover:text-emerald-400 transition-colors whitespace-nowrap"
-            title="Call our landscape design studio"
-          >
+          <span className="hidden xl:flex items-center gap-1.5 text-xs text-stone-400 whitespace-nowrap" title="Illustrative demo contact">
             <Phone className="w-3.5 h-3.5 text-emerald-400" />
-            <span>(800) 582-9418</span>
-          </a>
+            <span>Sample contact · Demo only</span>
+          </span>
 
           <button
             type="button"
@@ -171,13 +167,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onQuoteClick }) => {
             </a>
           </nav>
           <div className="pt-4 border-t border-stone-800 flex flex-col gap-3">
-            <a
-              href="tel:8005829418"
-              className="flex items-center gap-2 text-sm text-stone-300"
-            >
+            <div className="flex items-center gap-2 text-sm text-stone-400">
               <Phone className="w-4 h-4 text-emerald-400" />
-              <span>Direct Studio: (800) 582-9418</span>
-            </a>
+              <span>Sample contact · Portfolio demo only</span>
+            </div>
             <button
               type="button"
               onClick={() => {
