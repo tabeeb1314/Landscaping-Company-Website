@@ -178,10 +178,7 @@ PROJECT DESCRIPTION & SITE VISION:
 ${formData.projectDetails}
 
 ---
-Evergreen Outdoor Living
-4200 Meadowbrook Way, Suite 100
-Direct: (800) 582-9418 | inquiries@evergreenliving.com
-Portfolio demo only — no real business or licence is represented.
+Portfolio demo only — fictional business details. No real address, contact details, licence, or business relationship is represented.
 `;
 
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
