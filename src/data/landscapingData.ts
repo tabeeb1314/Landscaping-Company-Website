@@ -1,10 +1,15 @@
 import { ServiceItem, GalleryProject, Testimonial, FaqItem } from '../types';
+import heroImage from '../assets/images/hero_estate_landscape_1792868274236.jpg';
+import hardscapingImage from '../assets/images/service_hardscaping_patio_1792868274421.jpg';
+import plantingImage from '../assets/images/service_native_planting_1792868276248.jpg';
+import poolscapeImage from '../assets/images/gallery_pool_terrace_1792868276540.jpg';
+import lightingImage from '../assets/images/gallery_evening_lighting_1792868276666.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_estate_landscape_1792868274236.jpg';
-export const HARDSCAPING_IMAGE = '/src/assets/images/service_hardscaping_patio_1792868274421.jpg';
-export const PLANTING_IMAGE = '/src/assets/images/service_native_planting_1792868276248.jpg';
-export const POOLSCAPE_IMAGE = '/src/assets/images/gallery_pool_terrace_1792868276540.jpg';
-export const LIGHTING_IMAGE = '/src/assets/images/gallery_evening_lighting_1792868276666.jpg';
+export const HERO_IMAGE = heroImage;
+export const HARDSCAPING_IMAGE = hardscapingImage;
+export const PLANTING_IMAGE = plantingImage;
+export const POOLSCAPE_IMAGE = poolscapeImage;
+export const LIGHTING_IMAGE = lightingImage;
 
 export const SERVICES: ServiceItem[] = [
   {
