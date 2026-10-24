@@ -24,7 +24,7 @@ export const FaqSection: React.FC = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-base text-stone-600 leading-relaxed">
-            Everything you need to know about our landscape architecture timelines, stone sourcing, permitting, and comprehensive warranty coverage.
+            Example FAQ content for a fictional landscaping brand. All timelines, services, and warranty details are illustrative and would need confirmation from a real business.
           </p>
         </div>
 
